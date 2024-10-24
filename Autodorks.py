@@ -35,7 +35,7 @@ def banner():
 ╚─────────────────────────────────────────────────────────────╝
 """ + colors.ENDC)
 	print(colors.SUBHEADER + "Autodorks - Automating Google Dorks")
-	print(colors.OKGREEN + "Author: " + colors.WARNING + "K1ng-Ph1sh3r | " + colors.OKGREEN + "Repo : " + colors.WARNING + "[Github_repo]\n" + colors.ENDC)
+	print(colors.OKGREEN + "Author: " + colors.WARNING + "K1ng-Ph1sh3r | " + colors.OKGREEN + "Repo : " + colors.WARNING + "https://github.com/K1ng-Ph1sh3r/Autodorks\n" + colors.ENDC)
 
 def getUrls(dork,number_webs,filename):
 	"""
