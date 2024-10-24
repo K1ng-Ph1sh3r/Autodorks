@@ -42,7 +42,7 @@ python3 autodorks.py -d "inurl:admin google" 5
 ```
 Will return the first five results of the google dorks "inurl:admin google"
 
-**Example 1 :** Executing a configured Google dorks
+**Example 3 :** Executing a configured Google dorks
 ```
 python3 autodorks.py FTPG-01 -w "google.com" 10
 ```
