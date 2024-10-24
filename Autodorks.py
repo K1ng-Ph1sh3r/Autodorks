@@ -58,7 +58,7 @@ def getUrls(dork,number_webs,filename):
 	# Printing results in the terminal and writing them in the specified file
 	file = open(filename, "w")
 
-	print("Résultats :")
+	print("Results :")
 	for results in search(dork):
 		print (results)
 		file.write(str(results))
