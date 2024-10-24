@@ -4,7 +4,7 @@ A simple python script that simplifies the use of Google Dorks
 ## Description
 This small script is based on RobotShell's [DorkScraper](https://github.com/robotshell/dorkScraper) project. I improved the code and added some features that I needed to have. 
 
-TODO : Adding picture on the script
+![Alt text](Autodorks_example_pic.png)
 
 ### What it does 
 This python script allows the user to :
@@ -30,13 +30,19 @@ This script relies only on [*Googlesearch-python*](https://pypi.org/project/goog
 ## Usage
 Here are some example of how to use Autodorks :
 
-**Example 1 :** executing a custom Google dorks :
+**Example 1 :** Displaying the help for Autodorks :
+```
+python3 autodorks.py -h
+```
+Will return the list of all available commands for Autodorks.
+
+**Example 2 :** Executing a custom Google dorks :
 ```
 python3 autodorks.py -d "inurl:admin google" 5
 ```
 Will return the first five results of the google dorks "inurl:admin google"
 
-**Example 2 :** Executing a configured Google dorks
+**Example 1 :** Executing a configured Google dorks
 ```
 python3 autodorks.py FTPG-01 -w "google.com" 10
 ```
@@ -65,4 +71,4 @@ If it returns the version, you can now use Autorks :D
 ## Disclaimer
 - This script is made for educational purpose only, I am not responsible for any misuse of this tool.
 
-- Code may not be perfect, and was never meant to be. So be aware, some errors may happen.
+- Code may not be perfect, and was never meant to be. So be aware, some errors can happen.
