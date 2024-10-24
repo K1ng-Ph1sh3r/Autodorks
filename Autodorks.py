@@ -104,7 +104,7 @@ def main():
 			print ("-v,--version" + colors.OKCYAN + "\tSee version (for testing process)" + colors.ENDC)
 			print("")
 			print(colors.BOLD + "You can have more informations by visiting Autodorks' repo :" + colors.ENDC)
-			print(colors.WARNING + "[Github_repo]" + colors.ENDC)
+			print(colors.WARNING + "https://github.com/K1ng-Ph1sh3r/Autodorks/" + colors.ENDC)
 		# Version section
 		elif arg == "-v" or arg == "--version":
 			print (colors.WARNING + "Autodorks v.1 - It seems that the script runs ! You can now run your dorks :D" + colors.ENDC)
