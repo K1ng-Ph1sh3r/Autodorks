@@ -21,15 +21,26 @@ This script relies only on [*Googlesearch-python*](https://pypi.org/project/goog
 
 | Argument        | What it does                 | 
 | --------------- | ---------------------------- |
-| -v or --version | Shows version                |
-| -h or --help    | Diplays help about Autodorks |
-
-TODO : Finish the list of arguments
+| -w or --website | Specify the domain name of the website that you want to use the google dorks on|
+| -d or --dork    | Specify the google dork wanted |
+| -v or --version | Shows version                                    |
+| -h or --help    | Diplays help about Autodorks                     |
+| -l or --list    | Displays the list of all configured google dorks |
 
 ## Usage
 Here are some example of how to use Autodorks :
 
-TODO : Adding every usage of autodorks
+**Example 1 :** executing a custom Google dorks :
+```
+python3 autodorks.py -d "inurl:admin google" 5
+```
+Will return the first five results of the google dorks "inurl:admin google"
+
+**Example 2 :** Executing a configured Google dorks
+```
+python3 autodorks.py FTPG-01 -w "google.com" 10
+```
+Will return the first ten results of the configured Google dork FTPG-01 : "inurl:ftp -inurl:http -inurl:https inurl:[Website]"
 
 ## Installation
 I recommend using this script in a dedicated python environment, but it is not mandatory.
@@ -44,7 +55,6 @@ chmod +x autodorks.py
 ```
 pip install -r REQUIREMENTS.txt
 ```
-TODO : Adding the requirement files
 
 ### Trying to run the script
 ```
